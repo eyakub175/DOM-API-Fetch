@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API CRUD Example</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+    <script defer src="script.js"></script> <!-- External JS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD Operations with Fetch API</h1>
+
+        <!-- Buttons for CRUD Operations -->
+        <div class="buttons">
+            <button onclick="createPost()">Create Post</button>
+            <button onclick="readPosts()">Read Posts</button>
+            <button onclick="updatePost(1)">Update Post (ID 1)</button>
+            <button onclick="deletePost(1)">Delete Post (ID 1)</button>
+        </div>
+
+        <!-- Display area for fetched data -->
+        <div id="output" class="output-box">
+            <h2>Output will be displayed here</h2>
+        </div>
+    </div>
+</body>
+</html>
